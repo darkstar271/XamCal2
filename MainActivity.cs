@@ -1,4 +1,5 @@
-﻿using Android.App;
+﻿using System;
+using Android.App;
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Runtime;
@@ -25,6 +26,12 @@ namespace XamCal2
 
 
             btnMinus = FindViewById<Button>(Resource.Id.btnminus);
+            btnMul = FindViewById<Button>(Resource.Id.btnmul);
+            btndivide = FindViewById<Button>(Resource.Id.btndivide);
+            txtNum1 = FindViewById<TextView>(Resource.Id.txtNum1);
+            txtNum2 = FindViewById<TextView>(Resource.Id.txtNum2);
+
+            btndivide.Click += Btndivide_Click;
 
 
 
@@ -34,6 +41,16 @@ namespace XamCal2
 
 
         }
+
+        private void Btndivide_Click(object sender, System.EventArgs e)
+        {
+            Num1 = Convert.ToDouble(txtNum1.Text);
+            Num2 = Convert.ToDouble(txtNum2.Text);
+            Result = Num1 / Num2;
+            string result = (Num1 + " / " + Num2 + " = " + Result);
+            Toast.MakeText(this, "The Result is " + Result, ToastLength.Long).Show();
+        }
+
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
