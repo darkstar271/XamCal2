@@ -4,25 +4,32 @@ using Android.OS;
 using Android.Support.V7.App;
 using Android.Runtime;
 using Android.Widget;
+using Android.Media;
+
 
 namespace XamCal2
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
+        MediaPlayer player;
         private TextView textMessage;
         private TextView txtNum1, txtNum2;
         private double Num1, Num2, Result;
-        private Button btnPlus, btnMinus, btnMul, btndivide, btnThatButton;
+        private Button btnPlus, btnMinus, btnMul, btndivide, btnThatButton, btnsound;
 
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+
+
             // this is like a constructor 
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+            player = MediaPlayer.Create(this, Resource.Raw.PreyEx2);
+            var btnsound =
 
 
             btnMinus = FindViewById<Button>(Resource.Id.btnminus);
@@ -30,8 +37,10 @@ namespace XamCal2
             btndivide = FindViewById<Button>(Resource.Id.btndivide);
             txtNum1 = FindViewById<TextView>(Resource.Id.txtNum1);
             txtNum2 = FindViewById<TextView>(Resource.Id.txtNum2);
+            btnsound = FindViewById<Button>(Resource.Id.btnsound);
 
             btndivide.Click += Btndivide_Click;
+            btnsound.Click += Btnsound_Click;
 
 
 
@@ -40,6 +49,12 @@ namespace XamCal2
 
 
 
+        }
+
+        private void Btnsound_Click(object sender, EventArgs e)
+        {
+
+            throw new NotImplementedException();
         }
 
         private void Btndivide_Click(object sender, System.EventArgs e)

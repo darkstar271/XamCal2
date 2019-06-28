@@ -81,6 +81,11 @@
                 android:layout_alignParentRight="true"
                 android:layout_weight="25" />
         </LinearLayout>
+        <Button
+            android:text="@string/playsoundtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnsound" />
         <LinearLayout
             android:orientation="horizontal"
             android:minWidth="25px"
