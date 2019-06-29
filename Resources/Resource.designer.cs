@@ -4333,9 +4333,6 @@ namespace XamCal2
 			// aapt resource value: 0x7f0e0034
 			public const int path_password_strike_through = 2131623988;
 			
-			// aapt resource value: 0x7f0e0038
-			public const int playsoundtext = 2131623992;
-			
 			// aapt resource value: 0x7f0e001b
 			public const int search_menu_title = 2131623963;
 			
