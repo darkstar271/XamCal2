@@ -87,6 +87,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnsound"
             android:onClick="Btnsound_Click" />
+        <Button
+            android:text="play2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnsound2" />
         <LinearLayout
             android:orientation="horizontal"
             android:minWidth="25px"

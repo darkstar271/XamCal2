@@ -13,10 +13,11 @@ namespace XamCal2
     public class MainActivity : AppCompatActivity
     {
         MediaPlayer player;
+        MediaPlayer player2;
         // private TextView textMessage;
         private TextView txtNum1, txtNum2;
         private double Num1, Num2, Result;
-        private Button btnPlus, btnMinus, btnMul, btndivide, btnsound;
+        private Button btnPlus, btnMinus, btnMul, btndivide, btnsound, btnsound2;
 
         // this is like a constructor 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -38,20 +39,29 @@ namespace XamCal2
             txtNum2 = FindViewById<TextView>(Resource.Id.txtNum2);
             btnPlus = FindViewById<Button>(Resource.Id.btnplus);
             btnsound = FindViewById<Button>(Resource.Id.btnsound);
+            btnsound2 = FindViewById<Button>(Resource.Id.btnsound2);
 
             btndivide.Click += Btndivide_Click;
             btnsound.Click += Btnsound_Click;
+            btnsound2.Click += Btnsound2_Click;
             player = MediaPlayer.Create(this, Resource.Raw.PreyEx2);
+            player2 = MediaPlayer.Create(this, Resource.Raw.a);
+
 
 
         }
 
+        private void Btnsound2_Click(object sender, EventArgs e)
+        {
+            player2.Start();
+        }
+
         private void Btnsound_Click(object sender, EventArgs e)
         {
-            Button FakeB = (Button)sender;
-            ButtonFake(FakeB.Text);
+            // Button FakeB = (Button)sender;
+            //ButtonFake(FakeB.Text);
 
-            // player.Start();
+            player.Start();
         }
 
         public void ButtonFake(string buttonSw)
