@@ -3274,17 +3274,17 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b0069
 			public const int action_bar_title = 2131427433;
 			
-			// aapt resource value: 0x7f0b00bf
-			public const int action_container = 2131427519;
+			// aapt resource value: 0x7f0b00c1
+			public const int action_container = 2131427521;
 			
 			// aapt resource value: 0x7f0b008e
 			public const int action_context_bar = 2131427470;
 			
-			// aapt resource value: 0x7f0b00ca
-			public const int action_divider = 2131427530;
+			// aapt resource value: 0x7f0b00cc
+			public const int action_divider = 2131427532;
 			
-			// aapt resource value: 0x7f0b00c0
-			public const int action_image = 2131427520;
+			// aapt resource value: 0x7f0b00c2
+			public const int action_image = 2131427522;
 			
 			// aapt resource value: 0x7f0b0003
 			public const int action_menu_divider = 2131427331;
@@ -3301,11 +3301,11 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b006b
 			public const int action_mode_close_button = 2131427435;
 			
-			// aapt resource value: 0x7f0b00c1
-			public const int action_text = 2131427521;
+			// aapt resource value: 0x7f0b00c3
+			public const int action_text = 2131427523;
 			
-			// aapt resource value: 0x7f0b00cb
-			public const int actions = 2131427531;
+			// aapt resource value: 0x7f0b00cd
+			public const int actions = 2131427533;
 			
 			// aapt resource value: 0x7f0b006c
 			public const int activity_chooser_view_content = 2131427436;
@@ -3337,44 +3337,44 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b0044
 			public const int bottom = 2131427396;
 			
-			// aapt resource value: 0x7f0b00af
-			public const int browser_actions_header_text = 2131427503;
-			
 			// aapt resource value: 0x7f0b00b1
-			public const int browser_actions_menu_item_icon = 2131427505;
+			public const int browser_actions_header_text = 2131427505;
+			
+			// aapt resource value: 0x7f0b00b3
+			public const int browser_actions_menu_item_icon = 2131427507;
+			
+			// aapt resource value: 0x7f0b00b4
+			public const int browser_actions_menu_item_text = 2131427508;
 			
 			// aapt resource value: 0x7f0b00b2
-			public const int browser_actions_menu_item_text = 2131427506;
+			public const int browser_actions_menu_items = 2131427506;
 			
 			// aapt resource value: 0x7f0b00b0
-			public const int browser_actions_menu_items = 2131427504;
-			
-			// aapt resource value: 0x7f0b00ae
-			public const int browser_actions_menu_view = 2131427502;
-			
-			// aapt resource value: 0x7f0b00a6
-			public const int btnDivide = 2131427494;
-			
-			// aapt resource value: 0x7f0b00ab
-			public const int btnLoadBMI = 2131427499;
+			public const int browser_actions_menu_view = 2131427504;
 			
 			// aapt resource value: 0x7f0b00a7
-			public const int btndivide = 2131427495;
+			public const int btnDivide = 2131427495;
 			
-			// aapt resource value: 0x7f0b00a4
-			public const int btnminus = 2131427492;
-			
-			// aapt resource value: 0x7f0b00a5
-			public const int btnmul = 2131427493;
-			
-			// aapt resource value: 0x7f0b00a3
-			public const int btnplus = 2131427491;
+			// aapt resource value: 0x7f0b00ad
+			public const int btnLoadBMI = 2131427501;
 			
 			// aapt resource value: 0x7f0b00a8
-			public const int btnsound = 2131427496;
+			public const int btndivide = 2131427496;
 			
-			// aapt resource value: 0x7f0b00a9
-			public const int btnsound2 = 2131427497;
+			// aapt resource value: 0x7f0b00a5
+			public const int btnminus = 2131427493;
+			
+			// aapt resource value: 0x7f0b00a6
+			public const int btnmul = 2131427494;
+			
+			// aapt resource value: 0x7f0b00a4
+			public const int btnplus = 2131427492;
+			
+			// aapt resource value: 0x7f0b00ab
+			public const int btnsound = 2131427499;
+			
+			// aapt resource value: 0x7f0b00aa
+			public const int btnsound2 = 2131427498;
 			
 			// aapt resource value: 0x7f0b0072
 			public const int buttonPanel = 2131427442;
@@ -3391,8 +3391,8 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b0086
 			public const int checkbox = 2131427462;
 			
-			// aapt resource value: 0x7f0b00c9
-			public const int chronometer = 2131427529;
+			// aapt resource value: 0x7f0b00cb
+			public const int chronometer = 2131427531;
 			
 			// aapt resource value: 0x7f0b0061
 			public const int clip_horizontal = 2131427425;
@@ -3403,8 +3403,8 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b0040
 			public const int collapseActionView = 2131427392;
 			
-			// aapt resource value: 0x7f0b00b5
-			public const int container = 2131427509;
+			// aapt resource value: 0x7f0b00b7
+			public const int container = 2131427511;
 			
 			// aapt resource value: 0x7f0b0082
 			public const int content = 2131427458;
@@ -3412,8 +3412,8 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b0075
 			public const int contentPanel = 2131427445;
 			
-			// aapt resource value: 0x7f0b00b6
-			public const int coordinator = 2131427510;
+			// aapt resource value: 0x7f0b00b8
+			public const int coordinator = 2131427512;
 			
 			// aapt resource value: 0x7f0b007c
 			public const int custom = 2131427452;
@@ -3427,20 +3427,20 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b006f
 			public const int default_activity_button = 2131427439;
 			
-			// aapt resource value: 0x7f0b00b8
-			public const int design_bottom_sheet = 2131427512;
+			// aapt resource value: 0x7f0b00ba
+			public const int design_bottom_sheet = 2131427514;
+			
+			// aapt resource value: 0x7f0b00bf
+			public const int design_menu_item_action_area = 2131427519;
+			
+			// aapt resource value: 0x7f0b00be
+			public const int design_menu_item_action_area_stub = 2131427518;
 			
 			// aapt resource value: 0x7f0b00bd
-			public const int design_menu_item_action_area = 2131427517;
+			public const int design_menu_item_text = 2131427517;
 			
 			// aapt resource value: 0x7f0b00bc
-			public const int design_menu_item_action_area_stub = 2131427516;
-			
-			// aapt resource value: 0x7f0b00bb
-			public const int design_menu_item_text = 2131427515;
-			
-			// aapt resource value: 0x7f0b00ba
-			public const int design_navigation_view = 2131427514;
+			public const int design_navigation_view = 2131427516;
 			
 			// aapt resource value: 0x7f0b0027
 			public const int disableHome = 2131427367;
@@ -3499,8 +3499,8 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b0071
 			public const int icon = 2131427441;
 			
-			// aapt resource value: 0x7f0b00cc
-			public const int icon_group = 2131427532;
+			// aapt resource value: 0x7f0b00ce
+			public const int icon_group = 2131427534;
 			
 			// aapt resource value: 0x7f0b0041
 			public const int ifRoom = 2131427393;
@@ -3508,8 +3508,8 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b006e
 			public const int image = 2131427438;
 			
-			// aapt resource value: 0x7f0b00c5
-			public const int info = 2131427525;
+			// aapt resource value: 0x7f0b00c7
+			public const int info = 2131427527;
 			
 			// aapt resource value: 0x7f0b0068
 			public const int italic = 2131427432;
@@ -3520,8 +3520,8 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b004e
 			public const int labeled = 2131427406;
 			
-			// aapt resource value: 0x7f0b00b4
-			public const int largeLabel = 2131427508;
+			// aapt resource value: 0x7f0b00b6
+			public const int largeLabel = 2131427510;
 			
 			// aapt resource value: 0x7f0b0054
 			public const int left = 2131427412;
@@ -3532,11 +3532,14 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b001d
 			public const int line3 = 2131427357;
 			
-			// aapt resource value: 0x7f0b00a2
-			public const int linearLayout5 = 2131427490;
+			// aapt resource value: 0x7f0b00a3
+			public const int linearLayout5 = 2131427491;
 			
-			// aapt resource value: 0x7f0b00aa
-			public const int linearLayout6 = 2131427498;
+			// aapt resource value: 0x7f0b00ac
+			public const int linearLayout6 = 2131427500;
+			
+			// aapt resource value: 0x7f0b00a9
+			public const int linearLayout7 = 2131427497;
 			
 			// aapt resource value: 0x7f0b0024
 			public const int listMode = 2131427364;
@@ -3544,11 +3547,11 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b0070
 			public const int list_item = 2131427440;
 			
-			// aapt resource value: 0x7f0b00ad
-			public const int lvAnswer = 2131427501;
+			// aapt resource value: 0x7f0b00af
+			public const int lvAnswer = 2131427503;
 			
-			// aapt resource value: 0x7f0b00ce
-			public const int masked = 2131427534;
+			// aapt resource value: 0x7f0b00d0
+			public const int masked = 2131427536;
 			
 			// aapt resource value: 0x7f0b009c
 			public const int message = 2131427484;
@@ -3568,8 +3571,8 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b002f
 			public const int multiply = 2131427375;
 			
-			// aapt resource value: 0x7f0b00b9
-			public const int navigation_header_container = 2131427513;
+			// aapt resource value: 0x7f0b00bb
+			public const int navigation_header_container = 2131427515;
 			
 			// aapt resource value: 0x7f0b0042
 			public const int never = 2131427394;
@@ -3580,14 +3583,14 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b0025
 			public const int normal = 2131427365;
 			
-			// aapt resource value: 0x7f0b00c7
-			public const int notification_background = 2131427527;
+			// aapt resource value: 0x7f0b00c9
+			public const int notification_background = 2131427529;
 			
-			// aapt resource value: 0x7f0b00c3
-			public const int notification_main_column = 2131427523;
+			// aapt resource value: 0x7f0b00c5
+			public const int notification_main_column = 2131427525;
 			
-			// aapt resource value: 0x7f0b00c2
-			public const int notification_main_column_container = 2131427522;
+			// aapt resource value: 0x7f0b00c4
+			public const int notification_main_column_container = 2131427524;
 			
 			// aapt resource value: 0x7f0b0060
 			public const int outline = 2131427424;
@@ -3616,11 +3619,11 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b0055
 			public const int right = 2131427413;
 			
-			// aapt resource value: 0x7f0b00c6
-			public const int right_icon = 2131427526;
+			// aapt resource value: 0x7f0b00c8
+			public const int right_icon = 2131427528;
 			
-			// aapt resource value: 0x7f0b00c4
-			public const int right_side = 2131427524;
+			// aapt resource value: 0x7f0b00c6
+			public const int right_side = 2131427526;
 			
 			// aapt resource value: 0x7f0b000c
 			public const int save_image_matrix = 2131427340;
@@ -3645,6 +3648,9 @@ namespace XamCal2
 			
 			// aapt resource value: 0x7f0b0077
 			public const int scrollView = 2131427447;
+			
+			// aapt resource value: 0x7f0b009d
+			public const int scrollView1 = 2131427485;
 			
 			// aapt resource value: 0x7f0b005d
 			public const int scrollable = 2131427421;
@@ -3697,8 +3703,8 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b002c
 			public const int showTitle = 2131427372;
 			
-			// aapt resource value: 0x7f0b00b3
-			public const int smallLabel = 2131427507;
+			// aapt resource value: 0x7f0b00b5
+			public const int smallLabel = 2131427509;
 			
 			// aapt resource value: 0x7f0b0016
 			public const int snackbar_action = 2131427350;
@@ -3766,20 +3772,20 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b005a
 			public const int textStart = 2131427418;
 			
-			// aapt resource value: 0x7f0b009d
-			public const int textView1 = 2131427485;
-			
 			// aapt resource value: 0x7f0b009e
-			public const int textView2 = 2131427486;
+			public const int textView1 = 2131427486;
 			
-			// aapt resource value: 0x7f0b00a0
-			public const int textView3 = 2131427488;
+			// aapt resource value: 0x7f0b009f
+			public const int textView2 = 2131427487;
 			
-			// aapt resource value: 0x7f0b00ac
-			public const int textView4 = 2131427500;
+			// aapt resource value: 0x7f0b00a1
+			public const int textView3 = 2131427489;
 			
-			// aapt resource value: 0x7f0b00be
-			public const int text_input_password_toggle = 2131427518;
+			// aapt resource value: 0x7f0b00ae
+			public const int textView4 = 2131427502;
+			
+			// aapt resource value: 0x7f0b00c0
+			public const int text_input_password_toggle = 2131427520;
 			
 			// aapt resource value: 0x7f0b0018
 			public const int textinput_counter = 2131427352;
@@ -3790,8 +3796,8 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b001a
 			public const int textinput_helper_text = 2131427354;
 			
-			// aapt resource value: 0x7f0b00c8
-			public const int time = 2131427528;
+			// aapt resource value: 0x7f0b00ca
+			public const int time = 2131427530;
 			
 			// aapt resource value: 0x7f0b0023
 			public const int title = 2131427363;
@@ -3808,8 +3814,8 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b007d
 			public const int topPanel = 2131427453;
 			
-			// aapt resource value: 0x7f0b00b7
-			public const int touch_outside = 2131427511;
+			// aapt resource value: 0x7f0b00b9
+			public const int touch_outside = 2131427513;
 			
 			// aapt resource value: 0x7f0b000f
 			public const int transition_current_scene = 2131427343;
@@ -3826,11 +3832,11 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b0013
 			public const int transition_transform = 2131427347;
 			
-			// aapt resource value: 0x7f0b009f
-			public const int txtNum1 = 2131427487;
+			// aapt resource value: 0x7f0b00a0
+			public const int txtNum1 = 2131427488;
 			
-			// aapt resource value: 0x7f0b00a1
-			public const int txtNum2 = 2131427489;
+			// aapt resource value: 0x7f0b00a2
+			public const int txtNum2 = 2131427490;
 			
 			// aapt resource value: 0x7f0b0034
 			public const int uniform = 2131427380;
@@ -3847,8 +3853,8 @@ namespace XamCal2
 			// aapt resource value: 0x7f0b001b
 			public const int view_offset_helper = 2131427355;
 			
-			// aapt resource value: 0x7f0b00cd
-			public const int visible = 2131427533;
+			// aapt resource value: 0x7f0b00cf
+			public const int visible = 2131427535;
 			
 			// aapt resource value: 0x7f0b0043
 			public const int withText = 2131427395;
