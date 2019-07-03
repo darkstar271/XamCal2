@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25dp"
+    android:minHeight="25dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="50dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip">
+        <TextView
+            android:text="Weight (kg)"
+            android:layout_width="134.0dp"
+            android:layout_height="36.5dp"
+            android:id="@+id/textView1"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="20dip"
+            android:shadowColor="#f5f5dcff" />
+
+
+
+
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtWeight"
+            android:layout_weight="50"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="50dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip">
+        <TextView
+            android:text="Height (Meters)"
+            android:layout_width="151.0dp"
+            android:layout_height="36.5dp"
+            android:id="@+id/textView1"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="20dip"
+            android:shadowColor="#f5f5dcff" />
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtHeight"
+            android:layout_weight="50" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="50dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip">
+        <TextView
+            android:text="Result"
+            android:layout_width="134.0dp"
+            android:layout_height="36.5dp"
+            android:id="@+id/textView1"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="20dip"
+            android:shadowColor="#f5f5dcff" />
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtResult"
+            android:layout_weight="50" />
+    </LinearLayout>
+    <Button
+        android:text="Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCalculate"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        style="@android:style/Holo.ButtonBar" />
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMessage"
+        android:textSize="20dip" />
+
+
+</LinearLayout>

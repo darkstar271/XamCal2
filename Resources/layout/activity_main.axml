@@ -8,8 +8,8 @@
     <ScrollView
         android:minWidth="25px"
         android:minHeight="25px"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:id="@+id/scrollView1">
         <LinearLayout
             android:orientation="vertical"
@@ -95,17 +95,17 @@
                 android:gravity="bottom"
                 android:layout_marginTop="10dp">
                 <Button
-                    android:text="play2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:id="@+id/btnsound2"
-                    android:layout_weight="25" />
-                <Button
                     android:text="Play"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:id="@+id/btnsound"
                     android:onClick="Btnsound_Click"
+                    android:layout_weight="25" />
+                <Button
+                    android:text="play2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnsound2"
                     android:layout_weight="25" />
             </LinearLayout>
             <LinearLayout

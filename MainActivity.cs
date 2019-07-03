@@ -8,6 +8,7 @@ using Android.Widget;
 using Android.Media;
 using Android.Util;
 using Javax.Security.Auth;
+using XamCal2.Resources.layout;
 
 
 namespace XamCal2
@@ -27,6 +28,7 @@ namespace XamCal2
         private TextView txtNum1, txtNum2;
         private double Num1, Num2;
         private Button btnPlus, btnMinus, btnMul, btndivide, btnsound, btnsound2;
+        private Button btnLoadBMI;
 
         private string Result = "";
         // this is like a constructor 
@@ -53,6 +55,9 @@ namespace XamCal2
             btnsound = FindViewById<Button>(Resource.Id.btnsound);
             btnsound2 = FindViewById<Button>(Resource.Id.btnsound2);
 
+            btnLoadBMI = FindViewById<Button>(Resource.Id.btnLoadBMI);
+
+            btnLoadBMI.Click += BtnLoadBMI_Click;
             btnPlus.Click += BtnMinus_Click;
             btnMinus.Click += BtnMinus_Click;
             btnMul.Click += BtnMinus_Click;
@@ -64,6 +69,11 @@ namespace XamCal2
 
             ListViewAnswerUpdate();
 
+        }
+
+        private void BtnLoadBMI_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(BMI));
         }
 
         private void ListViewAnswerUpdate()
